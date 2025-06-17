@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S Coffee | Ethiopian Cultural Coffee House</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+      color: #3d2b1f;
+    }
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url("/mnt/data/Untitled-1.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #8b0000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .gallery img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/Untitled-1.jpg" alt="S Coffee Logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to S Coffee – Experience Ethiopia in Every Sip</h1>
+  </div>
+
+  <section id="about">
+    <h2>About S Coffee</h2>
+    <p>
+      S Coffee is more than a coffee house – it’s a cultural space that brings the heart of Ethiopia to life through its traditional coffee ceremony, ambience, and hospitality. Whether you're here for a quiet cup or to explore authentic Ethiopian flavors and traditions, you're always welcome.
+    </p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <ul>
+      <li>Traditional Ethiopian Coffee Ceremony (Jebena Buna)</li>
+      <li>Espresso, Macchiato, Cappuccino</li>
+      <li>Dabo Kolo, Ambasha, Popcorn</li>
+      <li>Herbal Teas and Fresh Juices</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="/mnt/data/316cf97fcefac04d05d8712e651102c1.jpg" alt="Traditional baskets" />
+      <img src="/mnt/data/b4789e1ed2a2bc225d6797931b82751f.jpg" alt="Cultural basket pattern" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Visit Us</h2>
+    <p>
+      📍 Addis Ababa, Ethiopia<br>
+      ☎️ +251 977692625<br>
+      🕘 Open: 7:00 AM – 5:00 PM daily
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 S Coffee. All rights reserved.
+  </footer>
+</body>
+</html>
